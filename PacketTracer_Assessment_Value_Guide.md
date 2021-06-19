@@ -17,9 +17,9 @@ Content in the first column | Content in the second column
 
 # Switch Settings
 <details>
-  <summary> ## General Settings:</summary>
+  <summary>General Settings:</summary>
   
- 
+  ## General Settings
   ### CDP
   Value | Setting
   ------------ | -------------
@@ -32,6 +32,7 @@ Content in the first column | Content in the second column
   0	| Disabled
   1	| Enabled
 </details>
+
 DHCP Snooping
 
 Enabled
