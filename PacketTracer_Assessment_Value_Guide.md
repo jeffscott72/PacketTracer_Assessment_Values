@@ -19,7 +19,8 @@ Content in the first column | Content in the second column
 ## General Settings:
 ### CDP
 Value | Setting
------------- | -------------0	| Disabled
+------------ | -------------
+0	| Disabled
 1	| Enabled
 
 ### LLDP
