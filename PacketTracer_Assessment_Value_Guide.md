@@ -16,13 +16,13 @@
   1	| Enabled
 </details>
 
-DHCP Snooping
-
-Enabled
-
-0	Disabled
-
-1	Enabled
+## DHCP Snooping
+### Enabled
+  Value | Setting
+  ------------ | -------------
+  0 | Disabled
+  1 | Enabled
+ 
 
 Mac Address Verified
 0	Disabled
