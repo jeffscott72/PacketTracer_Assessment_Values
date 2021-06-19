@@ -8,13 +8,16 @@
      * With some
      * Sub bullets
 </details>
-
+First Header | Second Header
+------------ | -------------
+Content cell 1 | Content cell 2
+Content column 1 | Content column 2
 
 # Switch Settings
 ## General Settings:
 ### CDP
-* 0	Disabled
-* 1	Enabled
+0	| Disabled
+1	| Enabled
 
 ### LLDP
 0	Disabled
