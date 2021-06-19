@@ -12,7 +12,7 @@ Value | Setting
 0	| Disabled
 1	| Enabled
 
-
+---------------------------------------
 ## DHCP Snooping
 ### Enabled
 Value | Setting
