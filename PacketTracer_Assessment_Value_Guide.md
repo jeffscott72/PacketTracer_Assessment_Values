@@ -24,8 +24,10 @@ Value | Setting
 1	| Enabled
 
 ### LLDP
-0	Disabled
-1	Enabled
+Value | Setting
+------------ | -------------
+0	| Disabled
+1	| Enabled
 
 DHCP Snooping
 Enabled
