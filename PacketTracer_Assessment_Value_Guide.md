@@ -30,8 +30,11 @@ Value | Setting
 1	| Enabled
 
 DHCP Snooping
+
 Enabled
+
 0	Disabled
+
 1	Enabled
 
 Mac Address Verified
