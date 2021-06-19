@@ -13,8 +13,8 @@
 # Switch Settings
 ## General Settings:
 ### CDP
-0	Disabled
-1	Enabled
+* 0	Disabled
+* 1	Enabled
 
 ### LLDP
 0	Disabled
