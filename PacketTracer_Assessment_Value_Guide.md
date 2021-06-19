@@ -13,7 +13,7 @@ Value | Setting
 0	| Disabled
 1	| Enabled
 
----------------------------------------
+---
 ## DHCP Snooping
 ### Enabled
 Value | Setting
@@ -44,16 +44,16 @@ Value | Setting
 ### VLANS
 List of VLANS
 
+---
 
----------------------------------------
 DNS
 
 IP Domain-Lookup
 0	Disabled
 1	Enabled
 
+---
 
----------------------------------------
 DAI
 VLANS
 List of VLANS
@@ -71,8 +71,7 @@ Src-mac
 0	Disabled
 1	Enabled
 
----------------------------------------
-
+---
 
 Port Settings:
 
@@ -145,19 +144,24 @@ SwitchPort Protected
 0
 1
 
----------------------------------------
+---
+
 Security
 
 Modulus Bits
 # of Bits
----------------------------------------
+
+---
+
 SSH Server
 
 Version
 0	Default
 1	Version 1
 2	Version 2
----------------------------------------
+
+---
+
 STP
 
 BPDU Guard Default
@@ -179,7 +183,8 @@ Priority
 
 VLAN Number
 VLAN #
----------------------------------------
+
+---
 
 VTP
 
@@ -188,7 +193,8 @@ VTP Mode:
 1	client
 2	transparent
 
----------------------------------------
+---
+
 VTY Lines
 
 AAA Method List Name
@@ -209,7 +215,7 @@ Transport Input
 2	SSH
 2147483647	All
 
-
+---
 
 
 
