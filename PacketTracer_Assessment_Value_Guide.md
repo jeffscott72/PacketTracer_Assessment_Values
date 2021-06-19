@@ -21,19 +21,26 @@ Value | Setting
 1 | Enabled
  
 
-Mac Address Verified
-0	Disabled
-1	Enabled
+### Mac Address Verified
+Value | Setting
+------------ | -------------
+0 | Disabled
+1 | Enabled
 
-Option 82 Inserted ???
-0	Disabled
-1	Enabled
+### Option 82 Inserted ???
+Value | Setting
+------------ | -------------
+0 | Disabled
+1 | Enabled
 
-Option 82 Trusted
-0	Do Not Allow Untrusted
-1	Allow Untrusted
+### Option 82 Trusted
+Value | Setting
+------------ | -------------
+0 | Do Not Allow Untrusted
+1 | Allow Untrusted
 
-VLANS
+
+### VLANS
 List of VLANS
 
 
