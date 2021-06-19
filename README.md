@@ -1,2 +1,1 @@
-http://github.com - automatic!
-[GitHub](http://github.com)
+[An Internal Link](/guides/content/editing-an-existing-page)
