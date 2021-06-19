@@ -49,8 +49,10 @@ List of VLANS
 ## DNS
 
 ### IP Domain-Lookup
-0	Disabled
-1	Enabled
+Value | Setting
+------------ | -------------
+0 | Disabled
+1 | Enabled
 
 ---
 
@@ -59,17 +61,24 @@ List of VLANS
 List of VLANS
 
 ### Validate:
-Dst-mac
-0	Disabled
-1	Enabled
+#### Dst-mac
+Value | Setting
+------------ | -------------
+0 | Disabled
+1 | Enabled
 
-Ip
-0	Disabled
-1	Enabled
 
-Src-mac
-0	Disabled
-1	Enabled
+#### Ip
+Value | Setting
+------------ | -------------
+0 | Disabled
+1 | Enabled
+
+#### Src-mac
+Value | Setting
+------------ | -------------
+0 | Disabled
+1 | Enabled
 
 ---
 
