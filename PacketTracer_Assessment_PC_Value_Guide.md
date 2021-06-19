@@ -1,3 +1,3 @@
-[back](../README.md)
+[back](./README.md)
 # PC Settings
 ---
