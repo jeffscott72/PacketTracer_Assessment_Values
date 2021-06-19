@@ -1,3 +1,4 @@
+[back](./README.md)
 # Switch Settings
 ---
 ## General Settings
