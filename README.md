@@ -1,1 +1,1 @@
-[An Internal Link](/guides/content/editing-an-existing-page)
+[Switch Assessment Values](/PacketTracer_Assessment_Switch_Value_Guide.md)
