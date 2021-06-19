@@ -48,17 +48,17 @@ List of VLANS
 
 ## DNS
 
-IP Domain-Lookup
+### IP Domain-Lookup
 0	Disabled
 1	Enabled
 
 ---
 
 ## DAI
-VLANS
+### VLANS
 List of VLANS
 
-Validate:
+### Validate:
 Dst-mac
 0	Disabled
 1	Enabled
@@ -75,45 +75,45 @@ Src-mac
 
 ## Port Settings:
 
-Bpduguard
+### Bpduguard
 0	Disabled
 1	Enabled
 
-CDP Enabled
+### CDP Enabled
 0	Disabled
 1	Enabled
 
-DCHP Snooping Trust
+### DCHP Snooping Trust
 0	Not Trusted
 1	Trusted
 
-Dynamic Mode
+### Dynamic Mode
 0	Dynamic Desirable
 1	Dynamic Auto
 2	Trunk
 3	Access
 
-LLDP Receive
+### LLDP Receive
 0	Disabled
 1	Enabled
 
-LLDP Transmit
+### LLDP Transmit
 0	Disabled
 1	Enabled
 
-Nonegotiate
+### Nonegotiate
 0	False
 1	True
 
-Port Mode
+### Port Mode
 0 	Trunk
 1 	Access
 
-Port Status
+### Port Status
 0	Down
 1	Up
 
-Port Type
+### Port Type
 2	Ethernet (NM-1CE)
 3	FastEthernet
 4	GigabitEthernet
@@ -128,34 +128,34 @@ Port Type
 46	Wireless (NIM-1WAC 2.4/5GHz)
 
 
-Port Up
+### Port Up
 0	False
 1	True
 
-PortFast
+### PortFast
 0
 1
 
-Root Guard
+### Root Guard
 0
 1
 
-SwitchPort Protected
+### SwitchPort Protected
 0
 1
 
 ---
 
-Security
+## Security
 
-Modulus Bits
+### Modulus Bits
 Number of Bits
 
 ---
 
 ## SSH Server
 
-Version
+### Version
 0	Default
 1	Version 1
 2	Version 2
@@ -164,31 +164,31 @@ Version
 
 ## STP
 
-BPDU Guard Default
+### BPDU Guard Default
 0	Disabled
 1 	Enabled
 
-PortFast Default
+### PortFast Default
 0	Disabled
 1 	Enabled
 
-RSTP
+### RSTP
 0	PVST
 1	RPVST
 
-VLANs
+### VLANs
 VLAN #
 Priority
 32768
 
-VLAN Number
+### VLAN Number
 VLAN #
 
 ---
 
 ## VTP
 
-VTP Mode:
+### VTP Mode:
 0	server
 1	client
 2	transparent
@@ -197,19 +197,19 @@ VTP Mode:
 
 ## VTY Lines
 
-AAA Method List Name
+### AAA Method List Name
 Value of: Login Authentication AUTH_LIST
 
-Logging Sync
+### Logging Sync
 0	Disabled
 1	Enabled
 
-Login
+### Login
 0	No Login
 1	Login or Login Authentication AUTH_LIST
 2	Login Local
 
-Transport Input
+### Transport Input
 0	None
 1	Telnet
 2	SSH
