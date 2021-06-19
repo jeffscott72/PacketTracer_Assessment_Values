@@ -16,6 +16,7 @@ Content column 1 | Content column 2
 # Switch Settings
 ## General Settings:
 ### CDP
+------------ | -------------
 0	| Disabled
 1	| Enabled
 
