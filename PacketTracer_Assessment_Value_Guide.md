@@ -1,24 +1,24 @@
 # Switch Settings
-  ## General Settings
-  ### CDP
-  Value | Setting
-  ------------ | -------------
-  0	| Disabled
-  1	| Enabled
+## General Settings
+### CDP
+Value | Setting
+------------ | -------------
+0	| Disabled
+1	| Enabled
 
-  ### LLDP
-  Value | Setting
-  ------------ | -------------
-  0	| Disabled
-  1	| Enabled
+### LLDP
+Value | Setting
+------------ | -------------
+0	| Disabled
+1	| Enabled
 
 
 ## DHCP Snooping
 ### Enabled
-  Value | Setting
-  ------------ | -------------
-  0 | Disabled
-  1 | Enabled
+Value | Setting
+------------ | -------------
+0 | Disabled
+1 | Enabled
  
 
 Mac Address Verified
