@@ -46,7 +46,7 @@ List of VLANS
 
 ---
 
-DNS
+### DNS
 
 IP Domain-Lookup
 0	Disabled
@@ -54,7 +54,7 @@ IP Domain-Lookup
 
 ---
 
-DAI
+### DAI
 VLANS
 List of VLANS
 
@@ -73,7 +73,7 @@ Src-mac
 
 ---
 
-Port Settings:
+### Port Settings:
 
 Bpduguard
 0	Disabled
@@ -153,7 +153,7 @@ Modulus Bits
 
 ---
 
-SSH Server
+### SSH Server
 
 Version
 0	Default
@@ -162,7 +162,7 @@ Version
 
 ---
 
-STP
+### STP
 
 BPDU Guard Default
 0	Disabled
@@ -186,7 +186,7 @@ VLAN #
 
 ---
 
-VTP
+### VTP
 
 VTP Mode:
 0	server
@@ -195,7 +195,7 @@ VTP Mode:
 
 ---
 
-VTY Lines
+### VTY Lines
 
 AAA Method List Name
 Value of: Login Authentication AUTH_LIST
