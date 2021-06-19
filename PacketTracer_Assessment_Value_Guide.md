@@ -8,10 +8,11 @@
      * With some
      * Sub bullets
 </details>
+
 First Header | Second Header
 ------------ | -------------
-Content cell 1 | Content cell 2
-Content column 1 | Content column 2
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
 
 # Switch Settings
 ## General Settings:
