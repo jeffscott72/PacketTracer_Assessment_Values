@@ -16,19 +16,20 @@ Content in the first column | Content in the second column
 Content in the first column | Content in the second column
 
 # Switch Settings
-## General Settings:
-### CDP
-Value | Setting
------------- | -------------
-0	| Disabled
-1	| Enabled
+<details>
+  ## General Settings:
+  ### CDP
+  Value | Setting
+  ------------ | -------------
+  0	| Disabled
+  1	| Enabled
 
-### LLDP
-Value | Setting
------------- | -------------
-0	| Disabled
-1	| Enabled
-
+  ### LLDP
+  Value | Setting
+  ------------ | -------------
+  0	| Disabled
+  1	| Enabled
+</details>
 DHCP Snooping
 
 Enabled
