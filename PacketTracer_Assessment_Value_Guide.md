@@ -17,6 +17,8 @@ Content in the first column | Content in the second column
 
 # Switch Settings
 <details>
+  <summary>General Settings</summary>
+  
   ## General Settings:
   ### CDP
   Value | Setting
