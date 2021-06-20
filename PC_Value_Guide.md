@@ -4,7 +4,7 @@
 ## General Settings
 
 ### Default Gateway IPv6
-    IPv6 default gateway IP
+>IPv6 default gateway IP
 
 ---
 
