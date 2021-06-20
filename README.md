@@ -8,7 +8,7 @@ The purpose of this project is document assessment values for PacketTracer Activ
 
 ## Misc
 ### Regular Expressions for MOTD & Description values
-Value | Setting
------------- | -------------
-{{RegEx:.+}} | Match anything, has to be at least one character
-<pre>{{RegEx:.*KEYWORD.*}}</pre>	| Matches the KEYWORD and anything before or after it.
+#### Match anything, has to be at least one character
+<pre>{{RegEx:.+}}</pre>
+####Matches the KEYWORD and anything before or after it.
+<pre>{{RegEx:.*KEYWORD.*}}</pre>	
