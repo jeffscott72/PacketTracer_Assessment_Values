@@ -270,6 +270,8 @@ Priority
 ---
 
 ## VTP
+### Domain Name
+    Nam of VTP Domain Name
 
 ### VTP Mode:
 Value | Setting
@@ -277,6 +279,15 @@ Value | Setting
 0	| server
 1	| client
 2	| transparent
+
+### VTP Password
+    Password sued for VTP Domain
+    
+### VTP Verion
+Value | Setting
+------------ | -------------
+1	| VTP Version 1
+2	| VTP Version 2
 
 ---
 
