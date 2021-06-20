@@ -19,6 +19,16 @@ Value | Setting
 
 ## Ports
 ### PortName (ie FastEthernet0, GigabitEthenet0, etc)
+
+#### DHCP Client enable
+Value | Setting
+------------ | -------------
+0 | Off
+1	| On
+
+#### IP Address
+IPv4 address of Interface
+
 #### Port Type
 
 Value | Setting
