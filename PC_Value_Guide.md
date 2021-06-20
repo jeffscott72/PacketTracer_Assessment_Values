@@ -17,9 +17,9 @@ Value | Setting
 
 ---
 
-## Ports:PortName
-
-### Port Type
+## Ports
+### PortName
+#### Port Type
 
 Value | Setting
 ------------ | -------------
