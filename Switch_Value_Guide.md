@@ -49,7 +49,7 @@ Value | Setting
 
 
 ### VLANS
-List of VLANS
+    List of VLANS
 
 ---
 
@@ -65,7 +65,7 @@ Value | Setting
 
 ## DAI
 ### VLANS
-List of VLANS
+    List of VLANS
 
 ### Validate:
 #### Dst-mac
@@ -254,7 +254,7 @@ Value | Setting
 ## VTY Lines
 
 ### AAA Method List Name
-Value of: Login Authentication AUTH_LIST
+    Value of: Login Authentication AUTH_LIST
 
 ### Logging Sync
 Value | Setting
