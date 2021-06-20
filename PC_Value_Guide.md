@@ -6,8 +6,12 @@
 ### Default Gateway IPv6
 IPv6 default gateway IP
 
+---
+
 ### Default Gateway
 IPv4 default gateway IP
+
+---
 
 ### Power
 Value | Setting
@@ -26,12 +30,12 @@ Value | Setting
 0 | Off
 1	| On
 
---
+---
 
 #### IP Address
 IPv4 address of Interface
 
---
+---
 
 #### Port Type
 
