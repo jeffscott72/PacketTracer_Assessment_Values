@@ -10,5 +10,5 @@ The purpose of this project is document assessment values for PacketTracer Activ
 ### Regular Expressions for MOTD & Description values
 #### Match anything, has to be at least one character
 <pre>{{RegEx:.+}}</pre>
-####Matches the KEYWORD and anything before or after it.
+#### Matches the KEYWORD and anything character(s) before or after it.
 <pre>{{RegEx:.*KEYWORD.*}}</pre>	
