@@ -192,7 +192,7 @@ Value | Setting
 
 ## VLAN Port Settings:
 ### Description
-Provide a literal value for the interface description, can use Regular Expressions to search for patterns (see examples below)
+    Provide a literal value for the interface description, can use Regular Expressions to search for patterns (see examples below)
 #### Match anything, has to be at least one character
     {{RegEx:.+}} 
 #### Matches the KEYWORD and anything character(s) before or after it.
