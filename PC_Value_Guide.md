@@ -26,8 +26,12 @@ Value | Setting
 0 | Off
 1	| On
 
+--
+
 #### IP Address
 IPv4 address of Interface
+
+--
 
 #### Port Type
 
