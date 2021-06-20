@@ -281,7 +281,7 @@ Value | Setting
 2	| transparent
 
 ### VTP Password
-    Password sued for VTP Domain
+    Password used for VTP Domain
     
 ### VTP Verion
 Value | Setting
