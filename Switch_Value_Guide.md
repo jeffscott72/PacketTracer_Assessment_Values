@@ -2,6 +2,12 @@
 # Switch Settings
 ---
 ## General Settings
+### Banner MOTD
+    Provide a literal value for the MOTD message, can use Regular Expressions to search for patterns
+#### Match anything, has to be at least one character
+    {{RegEx:.+}} Match anything, has to be at least one character
+#### Matches the KEYWORD and anything character(s) before or after it.
+    {{RegEx:.*KEYWORD.*}}
 ### CDP
 Value | Setting
 ------------ | -------------
