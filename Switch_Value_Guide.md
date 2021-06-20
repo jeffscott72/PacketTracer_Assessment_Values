@@ -260,8 +260,12 @@ VLAN #
 Priority
 32768
 
-### VLAN Number
-VLAN #
+---
+
+### VLANS
+#### VLAN #
+#### VLAN Name
+    Name of VLAN
 
 ---
 
