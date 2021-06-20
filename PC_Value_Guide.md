@@ -9,6 +9,12 @@ IPv6 default gateway IP
 ### Default Gateway
 IPv4 default gateway IP
 
+### Power
+Value | Setting
+------------ | -------------
+0 | Off
+1	| On
+
 ---
 
 ## Ports
