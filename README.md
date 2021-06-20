@@ -7,7 +7,7 @@ The purpose of this project is document assessment values for PacketTracer Activ
 * Wireless LAN Controller (haven't started this yet)
 
 ## Misc
-### Regular Expression for MOTD & Description values
+### Regular Expressions for MOTD & Description values
 Value | Setting
 ------------ | -------------
 {{RegEx:.+}} | Match anything, has to be at least one character
