@@ -11,4 +11,4 @@ The purpose of this project is document assessment values for PacketTracer Activ
 Value | Setting
 ------------ | -------------
 {{RegEx:.+}} | Match anything, has to be at least one character
-{{RegEx:.*KEYWORD.*}}	| Matches the KEYWORD and anything before or after it.
+<pre>{{RegEx:.*KEYWORD.*}}</pre>	| Matches the KEYWORD and anything before or after it.
