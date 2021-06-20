@@ -3,9 +3,9 @@
 ---
 ## General Settings
 ### Banner MOTD
-    Provide a literal value for the MOTD message, can use Regular Expressions to search for patterns
+    Provide a literal value for the MOTD message, can use Regular Expressions to search for patterns (see examples below)
 #### Match anything, has to be at least one character
-    {{RegEx:.+}} Match anything, has to be at least one character
+    {{RegEx:.+}} 
 #### Matches the KEYWORD and anything character(s) before or after it.
     {{RegEx:.*KEYWORD.*}}
 ### CDP
