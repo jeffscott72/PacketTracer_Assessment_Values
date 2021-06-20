@@ -37,6 +37,25 @@ IPv4 address of Interface
 
 ---
 
+#### Link Local
+Link Local address of Interface
+
+---
+
+#### MAC Address
+MAC address of Interface
+
+---
+
+#### Port Status
+Value | Setting
+------------ | -------------
+0 | Off
+1	| On
+
+---
+
+
 #### Port Type
 
 Value | Setting
@@ -53,5 +72,20 @@ Value | Setting
 24	| Wireless (NIM-1WA 5GHz)
 37	| Wireless (NIM-FG/4G
 46	| Wireless (NIM-1WAC 2.4/5GHz)
+
+---
+
+#### Port Up
+Link Local address of Interface
+Value | Setting
+------------ | -------------
+0 | Off
+1	| On
+
+---
+
+#### Subnet Mask
+Subnet Mask of Interface
+
 
 ---
