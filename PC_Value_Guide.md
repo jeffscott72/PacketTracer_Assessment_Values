@@ -18,7 +18,7 @@ Value | Setting
 ---
 
 ## Ports
-### PortName
+### PortName (ie FastEthernet0, GigabitEthenet0, etc)
 #### Port Type
 
 Value | Setting
