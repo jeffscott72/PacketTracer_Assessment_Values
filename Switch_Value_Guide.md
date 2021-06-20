@@ -89,7 +89,7 @@ Value | Setting
 
 ---
 
-## Port Settings:
+## SwitchPort Settings:
 
 ### Bpduguard
 Value | Setting
@@ -187,6 +187,30 @@ Value | Setting
 ------------ | -------------
 0 | ???
 1 | ???
+
+---
+
+## VLAN Port Settings:
+### Description
+Provide a literal value for the interface description, can use Regular Expressions to search for patterns (see examples below)
+#### Match anything, has to be at least one character
+    {{RegEx:.+}} 
+#### Matches the KEYWORD and anything character(s) before or after it.
+    {{RegEx:.*KEYWORD.*}}
+### IP Address
+    IPv4 address of Interface
+### Port Status
+Value | Setting
+------------ | -------------
+0	| Down
+1	| Up
+### Port Up
+Value | Setting
+------------ | -------------
+0	| Down
+1	| Up
+### Subnet mask
+    Subnet Mask of Interface
 
 ---
 
