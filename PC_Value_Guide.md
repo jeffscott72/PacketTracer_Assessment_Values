@@ -4,12 +4,12 @@
 ## General Settings
 
 ### Default Gateway IPv6
-IPv6 default gateway IP
+    IPv6 default gateway IP
 
 ---
 
 ### Default Gateway
-IPv4 default gateway IP
+    IPv4 default gateway IP
 
 ---
 
@@ -33,17 +33,17 @@ Value | Setting
 ---
 
 #### IP Address
-IPv4 address of Interface
+    IPv4 address of Interface
 
 ---
 
 #### Link Local
-Link Local address of Interface
+    Link Local address of Interface
 
 ---
 
 #### MAC Address
-MAC address of Interface
+    MAC address of Interface
 
 ---
 
@@ -76,7 +76,6 @@ Value | Setting
 ---
 
 #### Port Up
-Link Local address of Interface
 Value | Setting
 ------------ | -------------
 0 | Off
@@ -85,7 +84,7 @@ Value | Setting
 ---
 
 #### Subnet Mask
-Subnet Mask of Interface
+    Subnet Mask of Interface
 
 
 ---
