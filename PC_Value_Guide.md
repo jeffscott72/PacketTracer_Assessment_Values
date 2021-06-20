@@ -1,8 +1,20 @@
 [back](./README.md)
 # PC Settings
+
+## General Settings
+
+### Default Gateway IPv6
+IPv6 default gateway IP
+
+### Default Gateway
+IPv4 default gateway IP
+
 ---
+
 ## Ports
+
 ### Port Type
+
 Value | Setting
 ------------ | -------------
 2	| Ethernet (NM-1CE)
