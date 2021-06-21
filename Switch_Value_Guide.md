@@ -231,7 +231,7 @@ Value | Setting
 0 	| Trunk
 1 	| Access
 
-###### Port Security
+##### Port Security
 ###### Aging Time
     Aging time in minutes
 ###### Enabled
