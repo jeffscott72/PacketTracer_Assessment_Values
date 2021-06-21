@@ -222,14 +222,36 @@ Value | Setting
 ##### Nonegotiate
 Value | Setting
 ------------ | -------------
-0	| False
-1	| True
+0	| Disabled
+1	| Enabled
 
 ##### Port Mode
 Value | Setting
 ------------ | -------------
 0 	| Trunk
 1 	| Access
+
+###### Port Security
+###### Aging Time
+    Aging time in minutes
+###### Enabled
+Value | Setting
+------------ | -------------
+0	| Disabled
+1	| Enabled
+###### Maximum Static MACs
+    Total MACs allowed
+###### Port Security Violation
+Value | Setting
+------------ | -------------
+0	| Shutdown
+1	| Protect
+2   | Restrict
+###### Sticky Enabled
+Value | Setting
+------------ | -------------
+0	| Disabled
+1	| Enabled
 
 ##### Port Status
 Value | Setting
