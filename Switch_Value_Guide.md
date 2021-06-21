@@ -170,14 +170,13 @@ Value | Setting
 0	| Disabled
 1	| Enabled
 
----
 
 ### Ports (Switch Ports)
 #### PortName (ie FastEthernet0/1)
 
 ##### Access VLAN
     Access VLAN number
-
+--
 ##### Bpduguard
 Value | Setting
 ------------ | -------------
