@@ -42,7 +42,7 @@ Value | Setting
 2	| Login Local
 
 
-#### Banner MOTD
+#### MOTD BANNER
     Provide a literal value for the MOTD message,  
     can use Regular Expressions to search for patterns (see examples below)
 
@@ -284,30 +284,36 @@ Value | Setting
 ##### Voice VLAN
     Provide the Voice VLAN number
 
----
-
-### VLAN Port Settings:
-#### Description
+#### VLAN1 (or other VLAN \# if configured)
+##### Description
     Provide a literal value for the interface description,  
     can use Regular Expressions to search for patterns (see examples below)
-##### Match anything, has to be at least one character
+###### Match anything, has to be at least one character
     {{RegEx:.+}} 
-##### Matches the KEYWORD and anything character(s) before or after it.
+###### Matches the KEYWORD and anything character(s) before or after it.
     {{RegEx:.*KEYWORD.*}}
-#### IP Address
+##### IP Address
     IPv4 address of Interface
-#### Port Status
+##### Port Status
 Value | Setting
 ------------ | -------------
 0	| Down
 1	| Up
-#### Port Up
+##### Port Up
 Value | Setting
 ------------ | -------------
 0	| Down
 1	| Up
-#### Subnet mask
+##### Subnet mask
     Subnet Mask of Interface
+
+---
+
+### Power
+Value | Setting
+------------ | -------------
+0 | Off
+1 | On
 
 ---
 
@@ -316,6 +322,14 @@ Value | Setting
 Value | Setting
 ------------ | -------------
 Number of Bits | 1024, 2048
+
+---
+
+### Service Password Encryption
+  Value | Setting
+------------ | -------------
+0	| Disabled
+1 	| Enabled  
 
 ---
 
@@ -337,6 +351,9 @@ Value | Setting
 0	| Disabled
 1 	| Enabled
 
+#### Port Costs
+    TODO
+
 #### PortFast Default
 Value | Setting
 ------------ | -------------
@@ -352,10 +369,16 @@ Value | Setting
 #### VLANs
 Value | Setting
 ------------ | -------------
-VLAN #
-Priority
-32768
+##### VLAN \#
+###### Priority
+    Default value is: 32768
+###### VLAN Number
 
+---
+
+### User Names
+#### User Names
+    List of usernames and their passwords
 ---
 
 ### VLANS
@@ -388,24 +411,46 @@ Value | Setting
 ---
 
 ### VTY Lines
-
-#### AAA Method List Name
+#### VTY Line \#
+##### AAA Method List Name
     Value of: Login Authentication AUTH_LIST
 
-#### Logging Synch
+##### Access Control In
+    Provde Incoming IPv4 ACL. Can be number or named ACL.
+
+##### IPv6 Access-Control In
+    Provde Incoming IPv6 ACL. Uses Named ACLs
+
+##### Logging Synch
 Value | Setting
 ------------ | -------------
 0	| Disabled
 1	| Enabled
 
-#### Login
+##### Login
 Value | Setting
 ------------ | -------------
 0	| No Login
 1	| Login or Login Authentication AUTH_LIST
 2	| Login Local
 
-#### Transport Input
+##### MOTD BANNER
+    Provide a literal value for the MOTD message,  
+    can use Regular Expressions to search for patterns (see examples below)
+
+###### Match anything, has to be at least one character
+    {{RegEx:.+}} 
+
+###### Matches the KEYWORD and anything character(s) before or after it.
+    {{RegEx:.*KEYWORD.*}}
+    
+##### Password
+    Provide console password
+    
+##### Terminal Line Timed out: 
+    This is the Exec-Timeout value in milliseconds (1 minute = 60000) 
+
+##### Transport Input
 Value | Setting
 ------------ | -------------
 0	| None
