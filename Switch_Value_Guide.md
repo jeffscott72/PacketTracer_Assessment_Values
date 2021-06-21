@@ -3,17 +3,167 @@
 ---
 ## General Settings
 ### Banner MOTD
-    Provide a literal value for the MOTD message, can use Regular Expressions to search for patterns (see examples below)
+    Provide a literal value for the MOTD message,  
+    can use Regular Expressions to search for patterns (see examples below)
 #### Match anything, has to be at least one character
     {{RegEx:.+}} 
 #### Matches the KEYWORD and anything character(s) before or after it.
     {{RegEx:.*KEYWORD.*}}
+
+---
+
 ### CDP
 Value | Setting
 ------------ | -------------
 0	| Disabled
 1	| Enabled
 
+---
+
+### Console Line
+
+#### Access Control In
+    Provde Incoming IPv4 ACL. Can be number or named ACL.
+
+#### IPv6 Access-Control In
+    Provde Incoming IPv6 ACL. Uses Named ACLs
+
+#### Logging Sync
+Value | Setting
+------------ | -------------
+0 | Disabled
+1 | Enabled
+
+#### Login
+Value | Setting
+------------ | -------------
+0	| No Login
+1	| Login or Login Authentication AUTH_LIST
+2	| Login Local
+
+
+#### Banner MOTD
+    Provide a literal value for the MOTD message,  
+    can use Regular Expressions to search for patterns (see examples below)
+
+##### Match anything, has to be at least one character
+    {{RegEx:.+}} 
+
+##### Matches the KEYWORD and anything character(s) before or after it.
+    {{RegEx:.*KEYWORD.*}}
+    
+#### Password
+    Provide console password
+    
+#### Terminal Line Timed out: 
+    This is the Exec-Timeout value in milliseconds (1 minute = 60000)    
+---
+
+### Default Gateway
+    Provide the default gateway
+    
+---
+
+### DHCP Snooping
+#### Enabled
+Value | Setting
+------------ | -------------
+0 | Disabled
+1 | Enabled
+ 
+
+#### Mac Address Verified
+Value | Setting
+------------ | -------------
+0 | Disabled
+1 | Enabled
+
+#### Option 82 Inserted ???
+Value | Setting
+------------ | -------------
+0 | Disabled
+1 | Enabled
+
+#### Option 82 Trusted
+Value | Setting
+------------ | -------------
+0 | Do Not Allow Untrusted
+1 | Allow Untrusted
+
+#### VLANS
+    List of VLANS associated with DHCP Snooping
+
+---
+
+### DNS
+
+#### IP Domain Name
+    Provide the domain name of the network
+
+#### IP Domain-Lookup
+Value | Setting
+------------ | -------------
+0 | Disabled
+1 | Enabled
+
+#### IP Name Server
+    Provide IP of name server
+---
+
+### DAI
+
+#### Validate:
+##### Dst-mac
+Value | Setting
+------------ | -------------
+0 | Disabled
+1 | Enabled
+
+
+##### Ip
+Value | Setting
+------------ | -------------
+0 | Disabled
+1 | Enabled
+
+##### Src-mac
+Value | Setting
+------------ | -------------
+0 | Disabled
+1 | Enabled
+
+#### DAI VLANS
+    List of VLANS
+
+---
+
+### Enable Password
+    Provide the privileged level password    
+---
+
+### Enable Secret
+    Provide the privileged level secret
+    
+---
+
+### Hostname
+    Provide the name of the switch
+    
+----
+
+### IOS Configuration
+#### Running Configuration
+##### LINES
+    Allows you match particular lines of the config
+#### Startup Configuration
+##### LINES
+    Allows you match particular lines of the config
+---
+### IP Domain Name
+    Provide the domain name of the network
+
+---
+    
 ### LLDP
 Value | Setting
 ------------ | -------------
@@ -21,95 +171,32 @@ Value | Setting
 1	| Enabled
 
 ---
-## DHCP Snooping
-### Enabled
-Value | Setting
------------- | -------------
-0 | Disabled
-1 | Enabled
- 
 
-### Mac Address Verified
-Value | Setting
------------- | -------------
-0 | Disabled
-1 | Enabled
+### Ports (Switch Ports)
+#### PortName (ie FastEthernet0/1)
 
-### Option 82 Inserted ???
+##### Access VLAN
+    Provide Access VLAN number
+
+##### Bpduguard
 Value | Setting
 ------------ | -------------
 0 | Disabled
 1 | Enabled
 
-### Option 82 Trusted
-Value | Setting
------------- | -------------
-0 | Do Not Allow Untrusted
-1 | Allow Untrusted
-
-
-### VLANS
-    List of VLANS
-
----
-
-## DNS
-
-### IP Domain-Lookup
+##### CDP Enabled
 Value | Setting
 ------------ | -------------
 0 | Disabled
 1 | Enabled
 
----
-
-## DAI
-### VLANS
-    List of VLANS
-
-### Validate:
-#### Dst-mac
-Value | Setting
------------- | -------------
-0 | Disabled
-1 | Enabled
-
-
-#### Ip
-Value | Setting
------------- | -------------
-0 | Disabled
-1 | Enabled
-
-#### Src-mac
-Value | Setting
------------- | -------------
-0 | Disabled
-1 | Enabled
-
----
-
-## SwitchPort Settings:
-
-### Bpduguard
-Value | Setting
------------- | -------------
-0 | Disabled
-1 | Enabled
-
-### CDP Enabled
-Value | Setting
------------- | -------------
-0 | Disabled
-1 | Enabled
-
-### DCHP Snooping Trust
+##### DCHP Snooping Trust
 Value | Setting
 ------------ | -------------
 0 | Not Trusted
 1 | Trusted
 
-### Dynamic Mode
+##### Dynamic Mode
 Value | Setting
 ------------ | -------------
 0 | Dynamic Desirable
@@ -117,37 +204,40 @@ Value | Setting
 2 | Trunk
 3 | Access
 
-### LLDP Receive
+##### LLDP Receive
 Value | Setting
 ------------ | -------------
 0 | Disabled
 1 | Enabled
 
-### LLDP Transmit
+##### LLDP Transmit
 Value | Setting
 ------------ | -------------
 0 | Disabled
 1 | Enabled
 
-### Nonegotiate
+##### Native VLAN
+    Provide Native VLAN number
+
+##### Nonegotiate
 Value | Setting
 ------------ | -------------
 0	| False
 1	| True
 
-### Port Mode
+##### Port Mode
 Value | Setting
 ------------ | -------------
 0 	| Trunk
 1 	| Access
 
-### Port Status
+##### Port Status
 Value | Setting
 ------------ | -------------
 0	| Down
 1	| Up
 
-### Port Type
+##### Port Type
 Value | Setting
 ------------ | -------------
 2	| Ethernet (NM-1CE)
@@ -164,67 +254,73 @@ Value | Setting
 46	| Wireless (NIM-1WAC 2.4/5GHz)
 
 
-### Port Up
+##### Port Up
 Value | Setting
 ------------ | -------------
-0	| False
-1	| True
+0	| Off
+1	| On
 
-### PortFast
+##### PortFast
 Value | Setting
 ------------ | -------------
-0 | ??? 
-1 | ???
+0 | Disabled
+1 | Enabled
 
-### Root Guard
+##### Root Guard
 Value | Setting
 ------------ | -------------
-0 | ???
-1 | ???
+0 | Disabled
+1 | Enabled
 
-### SwitchPort Protected
+##### SwitchPort Protected
 Value | Setting
 ------------ | -------------
-0 | ???
-1 | ???
+0 | Disabled
+1 | Enabled
+
+##### Trunk VLANS
+    Lists of VLANS that are allowed on Trunk
+
+##### Voice VLAN
+    Provide the Voice VLAN number
 
 ---
 
-## VLAN Port Settings:
-### Description
+### VLAN Port Settings:
+#### Description
     Provide a literal value for the interface description,  
     can use Regular Expressions to search for patterns (see examples below)
-#### Match anything, has to be at least one character
+##### Match anything, has to be at least one character
     {{RegEx:.+}} 
-#### Matches the KEYWORD and anything character(s) before or after it.
+##### Matches the KEYWORD and anything character(s) before or after it.
     {{RegEx:.*KEYWORD.*}}
-### IP Address
+#### IP Address
     IPv4 address of Interface
-### Port Status
+#### Port Status
 Value | Setting
 ------------ | -------------
 0	| Down
 1	| Up
-### Port Up
+#### Port Up
 Value | Setting
 ------------ | -------------
 0	| Down
 1	| Up
-### Subnet mask
+#### Subnet mask
     Subnet Mask of Interface
 
 ---
 
-## Security
-### Modulus Bits
+### Security
+#### Modulus Bits
 Value | Setting
 ------------ | -------------
 Number of Bits | 1024, 2048
 
 ---
 
-## SSH Server
-### Version
+### SSH Server
+#### Version
 Value | Setting
 ------------ | -------------
 0	| Default
@@ -233,27 +329,27 @@ Value | Setting
 
 ---
 
-## STP
+### STP
 
-### BPDU Guard Default
+#### BPDU Guard Default
 Value | Setting
 ------------ | -------------
 0	| Disabled
 1 	| Enabled
 
-### PortFast Default
+#### PortFast Default
 Value | Setting
 ------------ | -------------
 0	| Disabled
 1 	| Enabled
 
-### RSTP
+#### RSTP
 Value | Setting
 ------------ | -------------
 0	| PVST
 1	| RPVST
 
-### VLANs
+#### VLANs
 Value | Setting
 ------------ | -------------
 VLAN #
@@ -269,21 +365,21 @@ Priority
 
 ---
 
-## VTP
-### Domain Name
+### VTP
+#### Domain Name
     Nam of VTP Domain Name
 
-### VTP Mode:
+#### VTP Mode:
 Value | Setting
 ------------ | -------------
 0	| server
 1	| client
 2	| transparent
 
-### VTP Password
+#### VTP Password
     Password used for VTP Domain
     
-### VTP Verion
+#### VTP Verion
 Value | Setting
 ------------ | -------------
 1	| VTP Version 1
@@ -291,25 +387,25 @@ Value | Setting
 
 ---
 
-## VTY Lines
+### VTY Lines
 
-### AAA Method List Name
+#### AAA Method List Name
     Value of: Login Authentication AUTH_LIST
 
-### Logging Sync
+#### Logging Synch
 Value | Setting
 ------------ | -------------
 0	| Disabled
 1	| Enabled
 
-### Login
+#### Login
 Value | Setting
 ------------ | -------------
 0	| No Login
 1	| Login or Login Authentication AUTH_LIST
 2	| Login Local
 
-### Transport Input
+#### Transport Input
 Value | Setting
 ------------ | -------------
 0	| None
