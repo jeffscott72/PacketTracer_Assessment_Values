@@ -294,6 +294,14 @@ Value | Setting
     {{RegEx:.*KEYWORD.*}}
 ##### IP Address
     IPv4 address of Interface
+##### IPv6 Addresses
+###### IPv6 Address 1
+###### IP Address
+    IPv6 address of Interface
+###### Prefix Length
+     Prefix Length of Interface
+##### Link Local
+    Link Local IPv6 address of Interface
 ##### Port Status
 Value | Setting
 ------------ | -------------
