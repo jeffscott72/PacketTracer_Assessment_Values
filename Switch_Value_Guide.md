@@ -23,10 +23,10 @@ Value | Setting
 ### Console Line
 
 #### Access Control In
-    Provde Incoming IPv4 ACL. Can be number or named ACL.
+    Incoming IPv4 ACL. Can be number or named ACL.
 
 #### IPv6 Access-Control In
-    Provde Incoming IPv6 ACL. Uses Named ACLs
+    Incoming IPv6 ACL. Uses Named ACLs
 
 #### Logging Sync
 Value | Setting
@@ -53,14 +53,14 @@ Value | Setting
     {{RegEx:.*KEYWORD.*}}
     
 #### Password
-    Provide console password
+    Console password
     
 #### Terminal Line Timed out: 
     This is the Exec-Timeout value in milliseconds (1 minute = 60000)    
 ---
 
 ### Default Gateway
-    Provide the default gateway
+    Default gateway IP for the switch
     
 ---
 
@@ -98,7 +98,7 @@ Value | Setting
 ### DNS
 
 #### IP Domain Name
-    Provide the domain name of the network
+    Domain name of the network
 
 #### IP Domain-Lookup
 Value | Setting
@@ -107,7 +107,7 @@ Value | Setting
 1 | Enabled
 
 #### IP Name Server
-    Provide IP of name server
+    IP address of the name server
 ---
 
 ### DAI
@@ -138,16 +138,16 @@ Value | Setting
 ---
 
 ### Enable Password
-    Provide the privileged level password    
+    Privileged level password    
 ---
 
 ### Enable Secret
-    Provide the privileged level secret
+    Privileged level secret
     
 ---
 
 ### Hostname
-    Provide the name of the switch
+    Name of the switch
     
 ----
 
@@ -160,7 +160,7 @@ Value | Setting
     Allows you match particular lines of the config
 ---
 ### IP Domain Name
-    Provide the domain name of the network
+    Domain name of the network
 
 ---
     
@@ -176,7 +176,7 @@ Value | Setting
 #### PortName (ie FastEthernet0/1)
 
 ##### Access VLAN
-    Provide Access VLAN number
+    Access VLAN number
 
 ##### Bpduguard
 Value | Setting
@@ -217,7 +217,7 @@ Value | Setting
 1 | Enabled
 
 ##### Native VLAN
-    Provide Native VLAN number
+    Native VLAN number
 
 ##### Nonegotiate
 Value | Setting
@@ -282,7 +282,7 @@ Value | Setting
     Lists of VLANS that are allowed on Trunk
 
 ##### Voice VLAN
-    Provide the Voice VLAN number
+    Voice VLAN number
 
 #### VLAN1 (or other VLAN \# if configured)
 ##### Description
@@ -299,7 +299,7 @@ Value | Setting
 ###### IP Address
     IPv6 address of Interface
 ###### Prefix Length
-     Prefix Length of Interface
+    Prefix Length of Interface
 ##### Link Local
     Link Local IPv6 address of Interface
 ##### Port Status
@@ -424,10 +424,10 @@ Value | Setting
     Value of: Login Authentication AUTH_LIST
 
 ##### Access Control In
-    Provde Incoming IPv4 ACL. Can be number or named ACL.
+    Incoming IPv4 ACL. Can be number or named ACL.
 
 ##### IPv6 Access-Control In
-    Provde Incoming IPv6 ACL. Uses Named ACLs
+    Incoming IPv6 ACL. Uses Named ACLs
 
 ##### Logging Synch
 Value | Setting
