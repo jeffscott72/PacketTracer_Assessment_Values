@@ -1,9 +1,9 @@
 # PacketTracer Assessment Values
 The purpose of this project is document assessment values for PacketTracer Activites. 
 
-* [Switch Assessment Values](/Switch_Value_Guide.md) (work in progress)
+* [PC Assessment Values](/PC_Value_Guide.md)
 * [Router Assessment Values](/Router_Value_Guide.md) (haven't started this yet)
-* [PC Assessment Values](/PC_Value_Guide.md) (work in progress)
+* [Switch Assessment Values](/Switch_Value_Guide.md)
 * Wireless LAN Controller (haven't started this yet)
 
 ## Misc
