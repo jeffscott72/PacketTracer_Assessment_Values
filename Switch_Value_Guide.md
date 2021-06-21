@@ -263,7 +263,7 @@ Priority
 ---
 
 ### VLANS
-#### VLAN '#'
+#### VLAN \#
 #### VLAN Name
     Name of VLAN
 
