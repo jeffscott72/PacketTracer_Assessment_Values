@@ -1,6 +1,14 @@
 [back](./README.md)
 # Router
 ## General Settings
+### ACL \#
+	Standard ACL Example:
+	permit 172.16.0.0 0.0.255.255
+### ACL NAME
+	Standard Named Example:
+	deny host 192.168.1.2
+	permit any
+permit any
 ### Banner MOTD
 Provide a literal value for the MOTD message,  
     can use Regular Expressions to search for patterns (see examples below)
@@ -110,10 +118,63 @@ Value | Setting
 1 | Enabled
 ##### Period
 	How long you have to use all attempts
-
 ---
 
 ### NAT
+#### Inside Source List
+##### Inside Source List:
+	Name of pool | Interface (PAT)
+#### Inside Source Static
+##### NAT Source Setting 1
+	inside ip outside ip
+	ie 192.168.20.254 209.165.202.130 
+#### Pools
+##### Pool Name 1
+	This one is misleading, it wanted the IP Range of the Pool
+	ie 209.165.202.129-209.165.202.129
+---
+
+### OSPF
+#### Process ID \#
+
+##### Area
+###### Area \#
+	Area number
+	
+##### Area Authentication
+###### Area \#
+	Area number
+	
+##### Auto Cost
+	Autocost value bandwidth reference
+
+##### Default Information
+Value | Setting
+------------ | -------------
+0 | Disabled
+1 | Enabled
+
+##### Networks
+###### Route\#
+	Route being advertised
+	ie 11.0.0.0 0.255.255.255 0
+
+##### Passive Interface
+###### Default
+Value | Setting
+------------ | -------------
+0 | Disabled
+1 | Enabled
+
+###### Specific Interface(s) (ie Gigabit0/0)
+Value | Setting
+------------ | -------------
+0 | Disabled
+1 | Enabled
+
+##### Router ID
+	Router ID value
+
 
 ---
 
@@ -197,8 +258,9 @@ Value | Setting
 	TODO
 Value | Setting
 ------------ | -------------
-0 | Inside
-
+0 | Not set
+1 | Inside
+2 | Outside
 
 ##### OSPF Cost
 	Cost value
@@ -352,4 +414,3 @@ Value | Setting
 2147483647	| All
 
 ---
-
