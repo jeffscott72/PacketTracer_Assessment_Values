@@ -4,10 +4,18 @@
 ### ACL \#
 	Standard ACL Example:
 	permit 172.16.0.0 0.0.255.255
+	
+	Extended ACL Example:
+	permit tcp 192.168.1.0 0.0.0.255 192.168.2.0 0.0.0.255 eq www
 ### ACL NAME
 	Standard Named Example:
 	deny host 192.168.1.2
 	permit any
+	
+	Extended Named Example:
+	permit tcp 192.168.1.0 0.0.0.255 192.168.2.0 0.0.0.255 eq www
+	
+	
 
 ### Banner MOTD
 Provide a literal value for the MOTD message,  
