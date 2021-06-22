@@ -8,7 +8,7 @@
 	Standard Named Example:
 	deny host 192.168.1.2
 	permit any
-permit any
+
 ### Banner MOTD
 Provide a literal value for the MOTD message,  
     can use Regular Expressions to search for patterns (see examples below)
