@@ -279,6 +279,11 @@ Value | Setting
 ##### OSPF Hello-Interval
 	Hello timer
 
+##### OSPF Network TYpe
+Value | Setting
+------------ | -------------
+1	| Point to Piont
+5	| Ethernet
 
 ##### OSPF Priority
 	Priority number
