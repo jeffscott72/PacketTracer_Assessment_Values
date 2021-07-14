@@ -279,7 +279,7 @@ Value | Setting
 ##### OSPF Hello-Interval
 	Hello timer
 
-##### OSPF Network TYpe
+##### OSPF Network Type
 Value | Setting
 ------------ | -------------
 1	| Point to Piont
