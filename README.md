@@ -5,6 +5,7 @@ The purpose of this project is document assessment values for PacketTracer Activ
 * [Router Assessment Values](/Router_Value_Guide.md)
 * [Switch Assessment Values](/Switch_Value_Guide.md)
 * Wireless LAN Controller (haven't started this yet)
+* [AP](/AP_Value_Guide.md)
 
 **Update Notes:**  
 __7/14/2021__  
