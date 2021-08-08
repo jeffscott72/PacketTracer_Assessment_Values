@@ -18,14 +18,14 @@
 	
 
 ### Banner MOTD
-Provide a literal value for the MOTD message,  
-    can use Regular Expressions to search for patterns (see examples below)
+	Provide a literal value for the MOTD message,  
+	can use Regular Expressions to search for patterns (see examples below)
 
 #### Match anything, has to be at least one character
-    {{RegEx:.+}} 
+	{{RegEx:.+}} 
 
 #### Matches the KEYWORD and anything character(s) before or after it.
-    {{RegEx:.*KEYWORD.*}}
+	{{RegEx:.*KEYWORD.*}}
 
 ---
 ### Console Line
@@ -317,6 +317,9 @@ Value | Setting
 ------------ | -------------
 0	| Off
 1	| On
+
+##### Subnet mask
+    Subnet Mask of Interface
 
 ---
 
