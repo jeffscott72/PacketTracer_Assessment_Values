@@ -6,9 +6,3 @@ The purpose of this project is document assessment values for PacketTracer Activ
 * [Switch Assessment Values](/Switch_Value_Guide.md)
 * [Wireless LAN Controller](/WLC_Value_Guide.md)
 * [AP](/AP_Value_Guide.md)
-
-**Update Notes:**  
-__7/14/2021__  
-Router page is in good shape. Added OSPF Network type.
-__6/22/2021__  
-The Switch and PC pages are mostly done. Router page is in progress.
