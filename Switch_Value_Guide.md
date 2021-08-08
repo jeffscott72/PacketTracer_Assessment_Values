@@ -1,5 +1,5 @@
 [back](./README.md)
-# Switch Settings
+# Switch Settingss
 ---
 ## General Settings
 ### Banner MOTD
