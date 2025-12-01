@@ -7,4 +7,4 @@ The purpose of this project is document assessment values for PacketTracer Activ
 * [Wireless LAN Controller](/WLC_Value_Guide.md)
 * [AP](/AP_Value_Guide.md)
 
-Jeff Scott
+Created and maintained by: Jeff Scott
